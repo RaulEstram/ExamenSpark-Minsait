@@ -1,0 +1,685 @@
+id,name,type_1,type_2,hp,attack,defense,sp_atk,sp_def,speed,legendary,ventaja_1,ventaja_2,desventaja_1,desventaja_2,sin_efecto
+63,Abra,Psychic,,25.0,20.0,15.0,105.0,55.0,90.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+617,Accelgor,Bug,,80.0,70.0,40.0,100.0,60.0,145.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+681,AegislashBlade Forme,Steel,Ghost,60.0,150.0,50.0,150.0,50.0,60.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+681,AegislashShield Forme,Steel,Ghost,60.0,50.0,150.0,50.0,150.0,60.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+142,Aerodactyl,Rock,Flying,80.0,105.0,65.0,60.0,75.0,130.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+142,AerodactylMega Aerodactyl,Rock,Flying,80.0,135.0,85.0,70.0,95.0,150.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+306,Aggron,Steel,Rock,70.0,110.0,180.0,60.0,60.0,50.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+306,AggronMega Aggron,Steel,,70.0,140.0,230.0,60.0,80.0,50.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+190,Aipom,Normal,,55.0,70.0,55.0,40.0,55.0,85.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+65,Alakazam,Psychic,,55.0,50.0,45.0,135.0,95.0,120.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+65,AlakazamMega Alakazam,Psychic,,55.0,50.0,65.0,175.0,95.0,150.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+594,Alomomola,Water,,165.0,75.0,80.0,40.0,45.0,65.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+334,Altaria,Dragon,Flying,75.0,70.0,90.0,70.0,105.0,80.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+334,AltariaMega Altaria,Dragon,Fairy,75.0,110.0,110.0,110.0,105.0,80.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+698,Amaura,Rock,Ice,77.0,59.0,50.0,67.0,63.0,46.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+424,Ambipom,Normal,,75.0,100.0,66.0,60.0,66.0,115.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+181,Ampharos,Electric,,90.0,75.0,85.0,115.0,90.0,55.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+181,AmpharosMega Ampharos,Electric,Dragon,90.0,95.0,105.0,165.0,110.0,45.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+347,Anorith,Rock,Bug,45.0,95.0,50.0,40.0,50.0,75.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+24,Arbok,Poison,,60.0,85.0,69.0,65.0,79.0,80.0,false,Planta,NaN,Veneno,Tierra,Acero
+59,Arcanine,Fire,,90.0,110.0,80.0,100.0,80.0,95.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+493,Arceus,Normal,,120.0,120.0,120.0,120.0,120.0,120.0,true,Ninguna,Ninguna,Roca,Acero,Fantasma
+566,Archen,Rock,Flying,55.0,112.0,45.0,74.0,45.0,70.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+567,Archeops,Rock,Flying,75.0,140.0,65.0,112.0,65.0,110.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+168,Ariados,Bug,Poison,70.0,90.0,70.0,60.0,60.0,40.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+348,Armaldo,Rock,Bug,75.0,125.0,100.0,70.0,80.0,45.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+304,Aron,Steel,Rock,50.0,70.0,100.0,40.0,40.0,30.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+144,Articuno,Ice,Flying,90.0,85.0,100.0,95.0,125.0,85.0,true,Planta,Tierra,Fuego,Agua,Ninguno
+531,Audino,Normal,,103.0,60.0,86.0,60.0,86.0,50.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+531,AudinoMega Audino,Normal,Fairy,103.0,60.0,126.0,80.0,126.0,50.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+699,Aurorus,Rock,Ice,123.0,77.0,72.0,99.0,92.0,58.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+713,Avalugg,Ice,,95.0,117.0,184.0,44.0,46.0,28.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+610,Axew,Dragon,,46.0,87.0,60.0,30.0,40.0,57.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+482,Azelf,Psychic,,75.0,125.0,70.0,125.0,70.0,115.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+184,Azumarill,Water,Fairy,100.0,50.0,80.0,60.0,80.0,50.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+298,Azurill,Normal,Fairy,50.0,20.0,40.0,20.0,40.0,20.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+371,Bagon,Dragon,,45.0,75.0,60.0,40.0,30.0,50.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+343,Baltoy,Ground,Psychic,40.0,40.0,55.0,40.0,70.0,55.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+354,Banette,Ghost,,64.0,115.0,65.0,83.0,63.0,65.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+354,BanetteMega Banette,Ghost,,64.0,165.0,75.0,93.0,83.0,75.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+689,Barbaracle,Rock,Water,72.0,105.0,115.0,54.0,86.0,68.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+339,Barboach,Water,Ground,50.0,48.0,43.0,46.0,41.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+550,Basculin,Water,,70.0,92.0,65.0,80.0,55.0,98.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+411,Bastiodon,Rock,Steel,60.0,52.0,168.0,47.0,138.0,30.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+614,Beartic,Ice,,95.0,110.0,80.0,70.0,80.0,50.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+267,Beautifly,Bug,Flying,60.0,70.0,50.0,100.0,50.0,65.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+15,Beedrill,Bug,Poison,65.0,90.0,40.0,45.0,80.0,75.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+15,BeedrillMega Beedrill,Bug,Poison,65.0,150.0,40.0,15.0,80.0,145.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+606,Beheeyem,Psychic,,75.0,75.0,75.0,125.0,95.0,40.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+374,Beldum,Steel,Psychic,40.0,55.0,80.0,35.0,60.0,30.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+712,Bergmite,Ice,,55.0,69.0,85.0,32.0,35.0,28.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+400,Bibarel,Normal,Water,79.0,85.0,60.0,55.0,60.0,71.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+399,Bidoof,Normal,,59.0,45.0,40.0,35.0,40.0,31.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+688,Binacle,Rock,Water,42.0,52.0,67.0,39.0,56.0,50.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+9,Blastoise,Water,,79.0,83.0,100.0,85.0,105.0,78.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+9,BlastoiseMega Blastoise,Water,,79.0,103.0,120.0,135.0,115.0,78.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+257,Blaziken,Fire,Fighting,80.0,120.0,70.0,110.0,70.0,80.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+257,BlazikenMega Blaziken,Fire,Fighting,80.0,160.0,80.0,130.0,80.0,100.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+242,Blissey,Normal,,255.0,10.0,10.0,75.0,135.0,55.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+522,Blitzle,Electric,,45.0,60.0,32.0,50.0,32.0,76.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+525,Boldore,Rock,,70.0,105.0,105.0,50.0,40.0,20.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+438,Bonsly,Rock,,50.0,80.0,95.0,10.0,45.0,10.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+626,Bouffalant,Normal,,95.0,110.0,95.0,40.0,95.0,55.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+654,Braixen,Fire,,59.0,59.0,58.0,90.0,70.0,73.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+628,Braviary,Normal,Flying,100.0,123.0,75.0,57.0,75.0,80.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+437,Bronzong,Steel,Psychic,67.0,89.0,116.0,79.0,116.0,33.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+436,Bronzor,Steel,Psychic,57.0,24.0,86.0,24.0,86.0,23.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+418,Buizel,Water,,55.0,65.0,35.0,60.0,30.0,85.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+427,Buneary,Normal,,55.0,66.0,44.0,44.0,56.0,85.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+659,Bunnelby,Normal,,38.0,36.0,38.0,32.0,36.0,57.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+412,Burmy,Bug,,40.0,29.0,45.0,29.0,45.0,36.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+12,Butterfree,Bug,Flying,60.0,45.0,50.0,90.0,80.0,70.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+323,Camerupt,Fire,Ground,70.0,100.0,70.0,105.0,75.0,40.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+323,CameruptMega Camerupt,Fire,Ground,70.0,120.0,100.0,145.0,105.0,20.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+703,Carbink,Rock,Fairy,50.0,50.0,150.0,50.0,150.0,50.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+565,Carracosta,Water,Rock,74.0,108.0,133.0,83.0,65.0,32.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+318,Carvanha,Water,Dark,45.0,90.0,20.0,65.0,20.0,65.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+268,Cascoon,Bug,,50.0,35.0,55.0,25.0,25.0,15.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+351,Castform,Normal,,70.0,70.0,70.0,70.0,70.0,70.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+10,Caterpie,Bug,,45.0,30.0,35.0,20.0,20.0,45.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+251,Celebi,Psychic,Grass,100.0,100.0,100.0,100.0,100.0,100.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+609,Chandelure,Ghost,Fire,60.0,55.0,90.0,145.0,90.0,80.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+113,Chansey,Normal,,250.0,5.0,5.0,35.0,105.0,50.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+6,Charizard,Fire,Flying,78.0,84.0,78.0,109.0,85.0,100.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+6,CharizardMega Charizard X,Fire,Dragon,78.0,130.0,111.0,130.0,85.0,100.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+6,CharizardMega Charizard Y,Fire,Flying,78.0,104.0,78.0,159.0,115.0,100.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+4,Charmander,Fire,,39.0,52.0,43.0,60.0,50.0,65.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+5,Charmeleon,Fire,,58.0,64.0,58.0,80.0,65.0,80.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+441,Chatot,Normal,Flying,76.0,65.0,45.0,92.0,42.0,91.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+390,Chimchar,Fire,,44.0,58.0,44.0,58.0,44.0,61.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+358,Chimecho,Psychic,,65.0,50.0,70.0,95.0,80.0,65.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+170,Chinchou,Water,Electric,75.0,38.0,38.0,56.0,56.0,67.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+433,Chingling,Psychic,,45.0,30.0,50.0,65.0,50.0,45.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+573,Cinccino,Normal,,75.0,95.0,60.0,65.0,60.0,115.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+366,Clamperl,Water,,35.0,64.0,85.0,74.0,55.0,32.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+692,Clauncher,Water,,50.0,53.0,62.0,58.0,63.0,44.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+693,Clawitzer,Water,,71.0,73.0,88.0,120.0,89.0,59.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+344,Claydol,Ground,Psychic,60.0,70.0,105.0,70.0,120.0,75.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+36,Clefable,Normal,,95.0,70.0,73.0,95.0,90.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+35,Clefairy,Normal,,70.0,45.0,48.0,60.0,65.0,35.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+91,Cloyster,Water,Ice,50.0,95.0,180.0,85.0,45.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+638,Cobalion,Steel,Fighting,91.0,90.0,129.0,90.0,72.0,108.0,true,Hielo,Roca,Fuego,Agua,Ninguno
+563,Cofagrigus,Ghost,,58.0,50.0,145.0,95.0,105.0,30.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+415,Combee,Bug,Flying,30.0,30.0,42.0,30.0,42.0,70.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+256,Combusken,Fire,Fighting,60.0,85.0,60.0,85.0,60.0,55.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+534,Conkeldurr,Fighting,,105.0,140.0,95.0,55.0,65.0,45.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+341,Corphish,Water,,43.0,80.0,65.0,50.0,35.0,35.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+222,Corsola,Water,Rock,55.0,55.0,85.0,65.0,85.0,35.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+346,Cradily,Rock,Grass,86.0,81.0,97.0,81.0,107.0,43.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+408,Cranidos,Rock,,67.0,125.0,40.0,30.0,30.0,58.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+342,Crawdaunt,Water,Dark,63.0,120.0,85.0,90.0,55.0,55.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+488,Cresselia,Psychic,,120.0,70.0,120.0,75.0,130.0,85.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+453,Croagunk,Poison,Fighting,48.0,61.0,40.0,61.0,40.0,50.0,false,Planta,NaN,Veneno,Tierra,Acero
+169,Crobat,Poison,Flying,85.0,90.0,80.0,70.0,80.0,130.0,false,Planta,NaN,Veneno,Tierra,Acero
+159,Croconaw,Water,,65.0,80.0,80.0,59.0,63.0,58.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+558,Crustle,Bug,Rock,70.0,95.0,125.0,65.0,75.0,45.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+615,Cryogonal,Ice,,70.0,50.0,30.0,95.0,135.0,105.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+613,Cubchoo,Ice,,55.0,70.0,40.0,60.0,40.0,40.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+104,Cubone,Ground,,50.0,50.0,95.0,40.0,50.0,35.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+155,Cyndaquil,Fire,,39.0,52.0,43.0,60.0,50.0,65.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+555,DarmanitanStandard Mode,Fire,,105.0,140.0,55.0,30.0,55.0,95.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+555,DarmanitanZen Mode,Fire,Psychic,105.0,30.0,105.0,140.0,105.0,55.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+554,Darumaka,Fire,,70.0,90.0,45.0,15.0,45.0,50.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+702,Dedenne,Electric,Fairy,67.0,58.0,57.0,81.0,67.0,101.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+585,Deerling,Normal,Grass,60.0,60.0,50.0,40.0,50.0,75.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+301,Delcatty,Normal,,70.0,65.0,65.0,55.0,55.0,70.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+225,Delibird,Ice,Flying,45.0,55.0,45.0,65.0,45.0,75.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+655,Delphox,Fire,Psychic,75.0,69.0,72.0,114.0,100.0,104.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+386,DeoxysAttack Forme,Psychic,,50.0,180.0,20.0,180.0,20.0,150.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+386,DeoxysDefense Forme,Psychic,,50.0,70.0,160.0,70.0,160.0,90.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+386,DeoxysNormal Forme,Psychic,,50.0,150.0,50.0,150.0,50.0,150.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+386,DeoxysSpeed Forme,Psychic,,50.0,95.0,90.0,95.0,90.0,180.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+87,Dewgong,Water,Ice,90.0,70.0,80.0,70.0,95.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+502,Dewott,Water,,75.0,75.0,60.0,83.0,60.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+483,Dialga,Steel,Dragon,100.0,120.0,120.0,150.0,100.0,90.0,true,Hielo,Roca,Fuego,Agua,Ninguno
+719,Diancie,Rock,Fairy,50.0,100.0,150.0,100.0,150.0,50.0,true,Fuego,Hielo,Lucha,Tierra,Ninguno
+719,DiancieMega Diancie,Rock,Fairy,50.0,160.0,110.0,160.0,110.0,110.0,true,Fuego,Hielo,Lucha,Tierra,Ninguno
+660,Diggersby,Normal,Ground,85.0,56.0,77.0,50.0,77.0,78.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+50,Diglett,Ground,,10.0,55.0,25.0,35.0,45.0,95.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+132,Ditto,Normal,,48.0,48.0,48.0,48.0,48.0,48.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+85,Dodrio,Normal,Flying,60.0,110.0,70.0,60.0,60.0,100.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+84,Doduo,Normal,Flying,35.0,85.0,45.0,35.0,35.0,75.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+232,Donphan,Ground,,90.0,120.0,120.0,60.0,60.0,50.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+680,Doublade,Steel,Ghost,59.0,110.0,150.0,45.0,49.0,35.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+691,Dragalge,Poison,Dragon,65.0,75.0,90.0,97.0,123.0,44.0,false,Planta,NaN,Veneno,Tierra,Acero
+148,Dragonair,Dragon,,61.0,84.0,65.0,70.0,70.0,70.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+149,Dragonite,Dragon,Flying,91.0,134.0,95.0,100.0,100.0,80.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+452,Drapion,Poison,Dark,70.0,90.0,110.0,60.0,75.0,95.0,false,Planta,NaN,Veneno,Tierra,Acero
+147,Dratini,Dragon,,41.0,64.0,45.0,50.0,50.0,50.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+426,Drifblim,Ghost,Flying,150.0,80.0,44.0,90.0,54.0,80.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+425,Drifloon,Ghost,Flying,90.0,50.0,34.0,60.0,44.0,70.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+529,Drilbur,Ground,,60.0,85.0,40.0,30.0,45.0,68.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+96,Drowzee,Psychic,,60.0,48.0,45.0,43.0,90.0,42.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+621,Druddigon,Dragon,,77.0,120.0,90.0,60.0,90.0,48.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+580,Ducklett,Water,Flying,62.0,44.0,50.0,44.0,50.0,55.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+51,Dugtrio,Ground,,35.0,80.0,50.0,50.0,70.0,120.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+206,Dunsparce,Normal,,100.0,70.0,70.0,65.0,65.0,45.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+578,Duosion,Psychic,,65.0,40.0,50.0,125.0,60.0,30.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+632,Durant,Bug,Steel,58.0,109.0,112.0,48.0,48.0,109.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+356,Dusclops,Ghost,,40.0,70.0,130.0,60.0,130.0,25.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+477,Dusknoir,Ghost,,45.0,100.0,135.0,65.0,135.0,45.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+355,Duskull,Ghost,,20.0,40.0,90.0,30.0,90.0,25.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+269,Dustox,Bug,Poison,60.0,50.0,70.0,50.0,90.0,65.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+557,Dwebble,Bug,Rock,50.0,65.0,85.0,35.0,35.0,55.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+603,Eelektrik,Electric,,65.0,85.0,70.0,75.0,70.0,40.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+604,Eelektross,Electric,,85.0,115.0,80.0,105.0,80.0,50.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+133,Eevee,Normal,,55.0,55.0,50.0,45.0,65.0,55.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+23,Ekans,Poison,,35.0,60.0,44.0,40.0,54.0,55.0,false,Planta,NaN,Veneno,Tierra,Acero
+125,Electabuzz,Electric,,65.0,83.0,57.0,95.0,85.0,105.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+466,Electivire,Electric,,75.0,123.0,67.0,95.0,85.0,95.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+309,Electrike,Electric,,40.0,45.0,40.0,65.0,40.0,65.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+101,Electrode,Electric,,60.0,50.0,70.0,80.0,80.0,140.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+239,Elekid,Electric,,45.0,63.0,37.0,65.0,55.0,95.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+605,Elgyem,Psychic,,55.0,55.0,55.0,85.0,55.0,30.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+500,Emboar,Fire,Fighting,110.0,123.0,65.0,100.0,65.0,65.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+587,Emolga,Electric,Flying,55.0,75.0,60.0,75.0,60.0,103.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+395,Empoleon,Water,Steel,84.0,86.0,88.0,111.0,101.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+244,Entei,Fire,,115.0,115.0,85.0,90.0,75.0,100.0,true,Planta,Hielo,Fuego,Agua,Ninguno
+589,Escavalier,Bug,Steel,70.0,135.0,105.0,60.0,105.0,20.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+196,Espeon,Psychic,,65.0,65.0,60.0,130.0,95.0,110.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+677,Espurr,Psychic,,62.0,48.0,54.0,63.0,60.0,68.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+530,Excadrill,Ground,Steel,110.0,135.0,60.0,50.0,65.0,88.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+295,Exploud,Normal,,104.0,91.0,63.0,91.0,73.0,68.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+83,Farfetch'd,Normal,Flying,52.0,65.0,55.0,58.0,62.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+22,Fearow,Normal,Flying,65.0,90.0,65.0,61.0,61.0,100.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+349,Feebas,Water,,20.0,15.0,20.0,10.0,55.0,80.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+653,Fennekin,Fire,,40.0,45.0,40.0,62.0,60.0,60.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+160,Feraligatr,Water,,85.0,105.0,100.0,79.0,83.0,78.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+456,Finneon,Water,,49.0,49.0,56.0,49.0,61.0,66.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+180,Flaaffy,Electric,,70.0,55.0,55.0,80.0,60.0,45.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+136,Flareon,Fire,,65.0,130.0,60.0,95.0,110.0,65.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+662,Fletchinder,Fire,Flying,62.0,73.0,55.0,56.0,52.0,84.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+661,Fletchling,Normal,Flying,45.0,50.0,43.0,40.0,38.0,62.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+419,Floatzel,Water,,85.0,105.0,55.0,85.0,50.0,115.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+330,Flygon,Ground,Dragon,80.0,100.0,80.0,80.0,80.0,100.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+205,Forretress,Bug,Steel,75.0,90.0,140.0,60.0,60.0,40.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+611,Fraxure,Dragon,,66.0,117.0,70.0,40.0,50.0,67.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+592,Frillish,Water,Ghost,55.0,40.0,50.0,65.0,85.0,40.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+656,Froakie,Water,,41.0,56.0,40.0,62.0,44.0,71.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+657,Frogadier,Water,,54.0,63.0,52.0,83.0,56.0,97.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+478,Froslass,Ice,Ghost,70.0,80.0,70.0,80.0,70.0,110.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+676,Furfrou,Normal,,75.0,80.0,60.0,65.0,90.0,102.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+162,Furret,Normal,,85.0,76.0,64.0,45.0,55.0,90.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+444,Gabite,Dragon,Ground,68.0,90.0,65.0,50.0,55.0,82.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+475,Gallade,Psychic,Fighting,68.0,125.0,65.0,65.0,115.0,80.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+475,GalladeMega Gallade,Psychic,Fighting,68.0,165.0,95.0,65.0,115.0,110.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+596,Galvantula,Bug,Electric,70.0,77.0,60.0,97.0,60.0,108.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+569,Garbodor,Poison,,80.0,95.0,82.0,60.0,82.0,75.0,false,Planta,NaN,Veneno,Tierra,Acero
+445,Garchomp,Dragon,Ground,108.0,130.0,95.0,80.0,85.0,102.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+445,GarchompMega Garchomp,Dragon,Ground,108.0,170.0,115.0,120.0,95.0,92.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+282,Gardevoir,Psychic,Fairy,68.0,65.0,65.0,125.0,115.0,80.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+282,GardevoirMega Gardevoir,Psychic,Fairy,68.0,85.0,65.0,165.0,135.0,100.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+92,Gastly,Ghost,Poison,30.0,35.0,30.0,100.0,35.0,80.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+423,Gastrodon,Water,Ground,111.0,83.0,68.0,92.0,82.0,39.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+649,Genesect,Bug,Steel,71.0,120.0,95.0,120.0,95.0,99.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+94,Gengar,Ghost,Poison,60.0,65.0,60.0,130.0,75.0,110.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+94,GengarMega Gengar,Ghost,Poison,60.0,65.0,80.0,170.0,95.0,130.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+74,Geodude,Rock,Ground,40.0,80.0,100.0,30.0,30.0,20.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+443,Gible,Dragon,Ground,58.0,70.0,45.0,40.0,45.0,42.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+526,Gigalith,Rock,,85.0,135.0,130.0,60.0,80.0,25.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+203,Girafarig,Normal,Psychic,70.0,80.0,65.0,90.0,65.0,85.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+487,GiratinaAltered Forme,Ghost,Dragon,150.0,100.0,120.0,100.0,120.0,90.0,true,Psíquico,Fantasma,Siniestro,Acero,Normal
+487,GiratinaOrigin Forme,Ghost,Dragon,150.0,120.0,100.0,120.0,100.0,90.0,true,Psíquico,Fantasma,Siniestro,Acero,Normal
+471,Glaceon,Ice,,65.0,60.0,110.0,130.0,95.0,65.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+362,Glalie,Ice,,80.0,80.0,80.0,80.0,80.0,80.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+362,GlalieMega Glalie,Ice,,80.0,120.0,80.0,120.0,80.0,100.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+431,Glameow,Normal,,49.0,55.0,42.0,42.0,37.0,85.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+207,Gligar,Ground,Flying,65.0,75.0,105.0,35.0,65.0,85.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+472,Gliscor,Ground,Flying,75.0,95.0,125.0,45.0,75.0,95.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+42,Golbat,Poison,Flying,75.0,80.0,70.0,65.0,75.0,90.0,false,Planta,NaN,Veneno,Tierra,Acero
+118,Goldeen,Water,,45.0,67.0,60.0,35.0,50.0,63.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+55,Golduck,Water,,80.0,82.0,78.0,95.0,80.0,85.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+76,Golem,Rock,Ground,80.0,120.0,130.0,55.0,65.0,45.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+622,Golett,Ground,Ghost,59.0,74.0,50.0,35.0,50.0,35.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+623,Golurk,Ground,Ghost,89.0,124.0,80.0,55.0,80.0,55.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+706,Goodra,Dragon,,90.0,100.0,70.0,110.0,150.0,80.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+704,Goomy,Dragon,,45.0,50.0,35.0,55.0,75.0,40.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+368,Gorebyss,Water,,55.0,84.0,105.0,114.0,75.0,52.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+574,Gothita,Psychic,,45.0,30.0,50.0,55.0,65.0,45.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+576,Gothitelle,Psychic,,70.0,55.0,95.0,95.0,110.0,65.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+575,Gothorita,Psychic,,60.0,45.0,70.0,75.0,85.0,55.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+711,GourgeistAverage Size,Ghost,Grass,65.0,90.0,122.0,58.0,75.0,84.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+711,GourgeistLarge Size,Ghost,Grass,75.0,95.0,122.0,58.0,75.0,69.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+711,GourgeistSmall Size,Ghost,Grass,55.0,85.0,122.0,58.0,75.0,99.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+711,GourgeistSuper Size,Ghost,Grass,85.0,100.0,122.0,58.0,75.0,54.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+75,Graveler,Rock,Ground,55.0,95.0,115.0,45.0,45.0,35.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+658,Greninja,Water,Dark,72.0,95.0,67.0,103.0,71.0,122.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+88,Grimer,Poison,,80.0,80.0,50.0,40.0,50.0,25.0,false,Planta,NaN,Veneno,Tierra,Acero
+383,Groudon,Ground,,100.0,150.0,140.0,100.0,90.0,90.0,true,Fuego,Eléctrico,Planta,Bicho,Volador
+383,GroudonPrimal Groudon,Ground,Fire,100.0,180.0,160.0,150.0,90.0,90.0,true,Fuego,Eléctrico,Planta,Bicho,Volador
+58,Growlithe,Fire,,55.0,70.0,45.0,70.0,50.0,60.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+326,Grumpig,Psychic,,80.0,45.0,65.0,90.0,110.0,80.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+316,Gulpin,Poison,,70.0,43.0,53.0,43.0,53.0,40.0,false,Planta,NaN,Veneno,Tierra,Acero
+533,Gurdurr,Fighting,,85.0,105.0,85.0,40.0,50.0,40.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+130,Gyarados,Water,Flying,95.0,125.0,79.0,60.0,100.0,81.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+130,GyaradosMega Gyarados,Water,Dark,95.0,155.0,109.0,70.0,130.0,81.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+440,Happiny,Normal,,100.0,5.0,5.0,15.0,65.0,30.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+297,Hariyama,Fighting,,144.0,120.0,60.0,40.0,60.0,50.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+93,Haunter,Ghost,Poison,45.0,50.0,45.0,115.0,55.0,95.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+701,Hawlucha,Fighting,Flying,78.0,92.0,75.0,74.0,63.0,118.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+612,Haxorus,Dragon,,76.0,147.0,90.0,60.0,70.0,97.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+631,Heatmor,Fire,,85.0,97.0,66.0,105.0,66.0,65.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+485,Heatran,Fire,Steel,91.0,90.0,106.0,130.0,106.0,77.0,true,Planta,Hielo,Fuego,Agua,Ninguno
+695,Heliolisk,Electric,Normal,62.0,55.0,52.0,109.0,94.0,109.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+694,Helioptile,Electric,Normal,44.0,38.0,33.0,61.0,43.0,70.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+214,Heracross,Bug,Fighting,80.0,125.0,75.0,40.0,95.0,85.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+214,HeracrossMega Heracross,Bug,Fighting,80.0,185.0,115.0,40.0,105.0,75.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+507,Herdier,Normal,,65.0,80.0,65.0,35.0,65.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+449,Hippopotas,Ground,,68.0,72.0,78.0,38.0,42.0,32.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+450,Hippowdon,Ground,,108.0,112.0,118.0,68.0,72.0,47.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+107,Hitmonchan,Fighting,,50.0,105.0,79.0,35.0,110.0,76.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+106,Hitmonlee,Fighting,,50.0,120.0,53.0,35.0,110.0,87.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+237,Hitmontop,Fighting,,50.0,95.0,95.0,35.0,110.0,70.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+250,Ho-oh,Fire,Flying,106.0,130.0,90.0,110.0,154.0,90.0,true,Planta,Hielo,Fuego,Agua,Ninguno
+679,Honedge,Steel,Ghost,45.0,80.0,100.0,35.0,37.0,28.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+720,HoopaHoopa Confined,Psychic,Ghost,80.0,110.0,60.0,150.0,130.0,70.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+720,HoopaHoopa Unbound,Psychic,Dark,80.0,160.0,60.0,170.0,130.0,80.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+163,Hoothoot,Normal,Flying,60.0,30.0,30.0,36.0,56.0,50.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+116,Horsea,Water,,30.0,40.0,70.0,70.0,25.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+367,Huntail,Water,,55.0,104.0,105.0,94.0,75.0,52.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+97,Hypno,Psychic,,85.0,73.0,70.0,73.0,115.0,67.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+174,Igglybuff,Normal,Fairy,90.0,30.0,15.0,40.0,20.0,15.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+314,Illumise,Bug,,65.0,47.0,55.0,73.0,75.0,85.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+392,Infernape,Fire,Fighting,76.0,104.0,71.0,104.0,71.0,108.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+593,Jellicent,Water,Ghost,100.0,60.0,70.0,85.0,105.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+39,Jigglypuff,Normal,,115.0,45.0,20.0,45.0,25.0,20.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+385,Jirachi,Steel,Psychic,100.0,100.0,100.0,100.0,100.0,100.0,true,Hielo,Roca,Fuego,Agua,Ninguno
+135,Jolteon,Electric,,65.0,65.0,60.0,110.0,95.0,130.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+595,Joltik,Bug,Electric,50.0,47.0,50.0,57.0,50.0,65.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+124,Jynx,Ice,Psychic,65.0,50.0,35.0,115.0,95.0,95.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+140,Kabuto,Rock,Water,30.0,80.0,90.0,55.0,45.0,55.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+141,Kabutops,Rock,Water,60.0,115.0,105.0,65.0,70.0,80.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+64,Kadabra,Psychic,,40.0,35.0,30.0,120.0,70.0,105.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+14,Kakuna,Bug,Poison,45.0,25.0,50.0,25.0,25.0,35.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+115,Kangaskhan,Normal,,105.0,95.0,80.0,40.0,80.0,90.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+115,KangaskhanMega Kangaskhan,Normal,,105.0,125.0,100.0,60.0,100.0,100.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+588,Karrablast,Bug,,50.0,75.0,45.0,40.0,45.0,60.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+352,Kecleon,Normal,,60.0,90.0,70.0,60.0,120.0,40.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+647,KeldeoOrdinary Forme,Water,Fighting,91.0,72.0,90.0,129.0,90.0,108.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+647,KeldeoResolute Forme,Water,Fighting,91.0,72.0,90.0,129.0,90.0,108.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+230,Kingdra,Water,Dragon,75.0,95.0,95.0,95.0,95.0,85.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+99,Kingler,Water,,55.0,130.0,115.0,50.0,50.0,75.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+281,Kirlia,Psychic,Fairy,38.0,35.0,35.0,65.0,55.0,50.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+600,Klang,Steel,,60.0,80.0,95.0,70.0,85.0,50.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+707,Klefki,Steel,Fairy,57.0,80.0,91.0,80.0,87.0,75.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+599,Klink,Steel,,40.0,55.0,70.0,45.0,60.0,30.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+601,Klinklang,Steel,,60.0,100.0,115.0,70.0,85.0,90.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+109,Koffing,Poison,,40.0,65.0,95.0,60.0,45.0,35.0,false,Planta,NaN,Veneno,Tierra,Acero
+98,Krabby,Water,,30.0,105.0,90.0,25.0,25.0,50.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+401,Kricketot,Bug,,37.0,25.0,41.0,25.0,41.0,25.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+402,Kricketune,Bug,,77.0,85.0,51.0,55.0,51.0,65.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+552,Krokorok,Ground,Dark,60.0,82.0,45.0,45.0,45.0,74.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+553,Krookodile,Ground,Dark,95.0,117.0,80.0,65.0,70.0,92.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+382,Kyogre,Water,,100.0,100.0,90.0,150.0,140.0,90.0,true,Fuego,Tierra,Agua,Planta,Ninguno
+382,KyogrePrimal Kyogre,Water,,100.0,150.0,90.0,180.0,160.0,90.0,true,Fuego,Tierra,Agua,Planta,Ninguno
+646,Kyurem,Dragon,Ice,125.0,130.0,90.0,130.0,90.0,95.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+646,KyuremBlack Kyurem,Dragon,Ice,125.0,170.0,100.0,120.0,90.0,95.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+646,KyuremWhite Kyurem,Dragon,Ice,125.0,120.0,90.0,170.0,100.0,95.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+305,Lairon,Steel,Rock,60.0,90.0,140.0,50.0,50.0,40.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+608,Lampent,Ghost,Fire,60.0,40.0,60.0,95.0,60.0,55.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+645,LandorusIncarnate Forme,Ground,Flying,89.0,125.0,90.0,115.0,80.0,101.0,true,Fuego,Eléctrico,Planta,Bicho,Volador
+645,LandorusTherian Forme,Ground,Flying,89.0,145.0,90.0,105.0,80.0,91.0,true,Fuego,Eléctrico,Planta,Bicho,Volador
+171,Lanturn,Water,Electric,125.0,58.0,58.0,76.0,76.0,67.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+131,Lapras,Water,Ice,130.0,85.0,80.0,85.0,95.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+636,Larvesta,Bug,Fire,55.0,85.0,55.0,50.0,55.0,60.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+246,Larvitar,Rock,Ground,50.0,64.0,50.0,45.0,50.0,41.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+380,Latias,Dragon,Psychic,80.0,80.0,90.0,110.0,130.0,110.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+380,LatiasMega Latias,Dragon,Psychic,80.0,100.0,120.0,140.0,150.0,110.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+381,Latios,Dragon,Psychic,80.0,90.0,80.0,130.0,110.0,110.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+381,LatiosMega Latios,Dragon,Psychic,80.0,130.0,100.0,160.0,120.0,110.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+542,Leavanny,Bug,Grass,75.0,103.0,80.0,70.0,80.0,92.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+166,Ledian,Bug,Flying,55.0,35.0,50.0,55.0,110.0,85.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+165,Ledyba,Bug,Flying,40.0,20.0,30.0,40.0,80.0,55.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+463,Lickilicky,Normal,,110.0,85.0,95.0,80.0,95.0,50.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+108,Lickitung,Normal,,90.0,55.0,75.0,60.0,75.0,30.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+345,Lileep,Rock,Grass,66.0,41.0,77.0,61.0,87.0,23.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+506,Lillipup,Normal,,45.0,60.0,45.0,25.0,45.0,55.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+264,Linoone,Normal,,78.0,70.0,61.0,50.0,61.0,100.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+667,Litleo,Fire,Normal,62.0,50.0,58.0,73.0,54.0,72.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+607,Litwick,Ghost,Fire,50.0,30.0,55.0,65.0,55.0,20.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+271,Lombre,Water,Grass,60.0,50.0,50.0,60.0,70.0,50.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+428,Lopunny,Normal,,65.0,76.0,84.0,54.0,96.0,105.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+428,LopunnyMega Lopunny,Normal,Fighting,65.0,136.0,94.0,54.0,96.0,135.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+270,Lotad,Water,Grass,40.0,30.0,30.0,40.0,50.0,30.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+294,Loudred,Normal,,84.0,71.0,43.0,71.0,43.0,48.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+448,Lucario,Fighting,Steel,70.0,110.0,70.0,115.0,70.0,90.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+448,LucarioMega Lucario,Fighting,Steel,70.0,145.0,88.0,140.0,70.0,112.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+272,Ludicolo,Water,Grass,80.0,70.0,70.0,90.0,100.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+249,Lugia,Psychic,Flying,106.0,90.0,130.0,90.0,154.0,110.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+457,Lumineon,Water,,69.0,69.0,76.0,69.0,86.0,91.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+337,Lunatone,Rock,Psychic,70.0,55.0,65.0,95.0,85.0,70.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+370,Luvdisc,Water,,43.0,30.0,55.0,40.0,65.0,97.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+404,Luxio,Electric,,60.0,85.0,49.0,60.0,49.0,60.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+405,Luxray,Electric,,80.0,120.0,79.0,95.0,79.0,70.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+68,Machamp,Fighting,,90.0,130.0,80.0,65.0,85.0,55.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+67,Machoke,Fighting,,80.0,100.0,70.0,50.0,60.0,45.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+66,Machop,Fighting,,70.0,80.0,50.0,35.0,35.0,35.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+240,Magby,Fire,,45.0,75.0,37.0,70.0,55.0,83.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+219,Magcargo,Fire,Rock,50.0,50.0,120.0,80.0,80.0,30.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+129,Magikarp,Water,,20.0,10.0,55.0,15.0,20.0,80.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+126,Magmar,Fire,,65.0,95.0,57.0,100.0,85.0,93.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+467,Magmortar,Fire,,75.0,95.0,67.0,125.0,95.0,83.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+81,Magnemite,Electric,Steel,25.0,35.0,70.0,95.0,55.0,45.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+82,Magneton,Electric,Steel,50.0,60.0,95.0,120.0,70.0,70.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+462,Magnezone,Electric,Steel,70.0,70.0,115.0,130.0,90.0,60.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+296,Makuhita,Fighting,,72.0,60.0,30.0,20.0,30.0,25.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+473,Mamoswine,Ice,Ground,110.0,130.0,80.0,70.0,60.0,80.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+490,Manaphy,Water,,100.0,100.0,100.0,100.0,100.0,100.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+310,Manectric,Electric,,70.0,75.0,60.0,105.0,60.0,105.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+310,ManectricMega Manectric,Electric,,70.0,75.0,80.0,135.0,80.0,135.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+56,Mankey,Fighting,,40.0,80.0,35.0,35.0,45.0,70.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+226,Mantine,Water,Flying,65.0,40.0,70.0,80.0,140.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+458,Mantyke,Water,Flying,45.0,20.0,50.0,60.0,120.0,50.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+179,Mareep,Electric,,55.0,40.0,40.0,65.0,45.0,35.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+183,Marill,Water,Fairy,70.0,20.0,50.0,20.0,50.0,40.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+105,Marowak,Ground,,60.0,80.0,110.0,50.0,80.0,45.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+259,Marshtomp,Water,Ground,70.0,85.0,70.0,60.0,70.0,50.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+284,Masquerain,Bug,Flying,70.0,60.0,62.0,80.0,82.0,60.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+303,Mawile,Steel,Fairy,50.0,85.0,85.0,55.0,55.0,50.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+303,MawileMega Mawile,Steel,Fairy,50.0,105.0,125.0,55.0,95.0,50.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+308,Medicham,Fighting,Psychic,60.0,60.0,75.0,60.0,75.0,80.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+308,MedichamMega Medicham,Fighting,Psychic,60.0,100.0,85.0,80.0,85.0,100.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+307,Meditite,Fighting,Psychic,30.0,40.0,55.0,40.0,55.0,60.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+648,MeloettaAria Forme,Normal,Psychic,100.0,77.0,77.0,128.0,128.0,90.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+648,MeloettaPirouette Forme,Normal,Fighting,100.0,128.0,90.0,77.0,77.0,128.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+678,MeowsticFemale,Psychic,,74.0,48.0,76.0,83.0,81.0,104.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+678,MeowsticMale,Psychic,,74.0,48.0,76.0,83.0,81.0,104.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+52,Meowth,Normal,,40.0,45.0,35.0,40.0,40.0,90.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+481,Mesprit,Psychic,,80.0,105.0,105.0,105.0,105.0,80.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+376,Metagross,Steel,Psychic,80.0,135.0,130.0,95.0,90.0,70.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+376,MetagrossMega Metagross,Steel,Psychic,80.0,145.0,150.0,105.0,110.0,110.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+375,Metang,Steel,Psychic,60.0,75.0,100.0,55.0,80.0,50.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+11,Metapod,Bug,,50.0,20.0,55.0,25.0,25.0,30.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+151,Mew,Psychic,,100.0,100.0,100.0,100.0,100.0,100.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+150,Mewtwo,Psychic,,106.0,110.0,90.0,154.0,90.0,130.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+150,MewtwoMega Mewtwo X,Psychic,Fighting,106.0,190.0,100.0,154.0,100.0,130.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+150,MewtwoMega Mewtwo Y,Psychic,,106.0,150.0,70.0,194.0,120.0,140.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+619,Mienfoo,Fighting,,45.0,85.0,50.0,55.0,50.0,65.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+620,Mienshao,Fighting,,65.0,125.0,60.0,95.0,60.0,105.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+350,Milotic,Water,,95.0,60.0,79.0,100.0,125.0,81.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+241,Miltank,Normal,,95.0,80.0,105.0,40.0,70.0,100.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+439,Mime Jr.,Psychic,Fairy,20.0,25.0,45.0,70.0,90.0,60.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+572,Minccino,Normal,,55.0,50.0,40.0,40.0,40.0,75.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+312,Minun,Electric,,60.0,40.0,50.0,75.0,85.0,95.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+200,Misdreavus,Ghost,,60.0,60.0,60.0,85.0,85.0,85.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+429,Mismagius,Ghost,,60.0,60.0,60.0,105.0,105.0,105.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+146,Moltres,Fire,Flying,90.0,100.0,90.0,125.0,85.0,90.0,true,Planta,Hielo,Fuego,Agua,Ninguno
+391,Monferno,Fire,Fighting,64.0,78.0,52.0,78.0,52.0,81.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+414,Mothim,Bug,Flying,70.0,94.0,50.0,94.0,50.0,66.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+122,Mr. Mime,Psychic,,40.0,45.0,65.0,100.0,120.0,90.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+258,Mudkip,Water,,50.0,70.0,50.0,50.0,50.0,40.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+89,Muk,Poison,,105.0,105.0,75.0,65.0,100.0,50.0,false,Planta,NaN,Veneno,Tierra,Acero
+446,Munchlax,Normal,,135.0,85.0,40.0,40.0,85.0,5.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+517,Munna,Psychic,,76.0,25.0,45.0,67.0,55.0,24.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+518,Musharna,Psychic,,116.0,55.0,85.0,107.0,95.0,29.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+177,Natu,Psychic,Flying,40.0,50.0,45.0,70.0,45.0,70.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+34,Nidoking,Poison,Ground,81.0,102.0,77.0,85.0,75.0,85.0,false,Planta,NaN,Veneno,Tierra,Acero
+31,Nidoqueen,Poison,Ground,90.0,92.0,87.0,75.0,85.0,76.0,false,Planta,NaN,Veneno,Tierra,Acero
+29,Nidoran♀,Poison,,55.0,47.0,52.0,40.0,40.0,41.0,false,Planta,NaN,Veneno,Tierra,Acero
+32,Nidoran♂,Poison,,46.0,57.0,40.0,40.0,40.0,50.0,false,Planta,NaN,Veneno,Tierra,Acero
+30,Nidorina,Poison,,70.0,62.0,67.0,55.0,55.0,56.0,false,Planta,NaN,Veneno,Tierra,Acero
+33,Nidorino,Poison,,61.0,72.0,57.0,55.0,55.0,65.0,false,Planta,NaN,Veneno,Tierra,Acero
+290,Nincada,Bug,Ground,31.0,45.0,90.0,30.0,30.0,40.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+38,Ninetales,Fire,,73.0,76.0,75.0,81.0,100.0,100.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+291,Ninjask,Bug,Flying,61.0,90.0,45.0,50.0,50.0,160.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+164,Noctowl,Normal,Flying,100.0,50.0,50.0,76.0,96.0,70.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+714,Noibat,Flying,Dragon,40.0,30.0,35.0,45.0,40.0,55.0,false,Planta,Volador,Eléctrico,Roca,Ninguno
+715,Noivern,Flying,Dragon,85.0,70.0,80.0,97.0,80.0,123.0,false,Planta,Volador,Eléctrico,Roca,Ninguno
+299,Nosepass,Rock,,30.0,45.0,135.0,45.0,90.0,30.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+322,Numel,Fire,Ground,60.0,60.0,40.0,65.0,45.0,35.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+224,Octillery,Water,,75.0,105.0,75.0,105.0,75.0,45.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+138,Omanyte,Rock,Water,35.0,40.0,100.0,90.0,55.0,35.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+139,Omastar,Rock,Water,70.0,60.0,125.0,115.0,70.0,55.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+95,Onix,Rock,Ground,35.0,45.0,160.0,30.0,45.0,70.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+501,Oshawott,Water,,55.0,55.0,45.0,63.0,45.0,45.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+417,Pachirisu,Electric,,60.0,45.0,70.0,45.0,90.0,95.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+484,Palkia,Water,Dragon,90.0,120.0,100.0,150.0,120.0,100.0,true,Fuego,Tierra,Agua,Planta,Ninguno
+536,Palpitoad,Water,Ground,75.0,65.0,55.0,65.0,55.0,69.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+674,Pancham,Fighting,,67.0,82.0,62.0,46.0,48.0,43.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+675,Pangoro,Fighting,Dark,95.0,124.0,78.0,69.0,71.0,58.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+515,Panpour,Water,,50.0,53.0,48.0,53.0,48.0,64.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+513,Pansear,Fire,,50.0,53.0,48.0,53.0,48.0,64.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+46,Paras,Bug,Grass,35.0,70.0,55.0,45.0,55.0,25.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+47,Parasect,Bug,Grass,60.0,95.0,80.0,60.0,80.0,30.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+504,Patrat,Normal,,45.0,55.0,39.0,35.0,39.0,42.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+279,Pelipper,Water,Flying,60.0,50.0,100.0,85.0,70.0,65.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+53,Persian,Normal,,65.0,70.0,60.0,65.0,65.0,115.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+231,Phanpy,Ground,,90.0,60.0,60.0,40.0,40.0,40.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+708,Phantump,Ghost,Grass,43.0,70.0,48.0,50.0,60.0,38.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+489,Phione,Water,,80.0,80.0,80.0,80.0,80.0,80.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+172,Pichu,Electric,,20.0,40.0,15.0,35.0,35.0,60.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+18,Pidgeot,Normal,Flying,83.0,80.0,75.0,70.0,70.0,101.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+18,PidgeotMega Pidgeot,Normal,Flying,83.0,80.0,80.0,135.0,80.0,121.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+17,Pidgeotto,Normal,Flying,63.0,60.0,55.0,50.0,50.0,71.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+16,Pidgey,Normal,Flying,40.0,45.0,40.0,35.0,35.0,56.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+519,Pidove,Normal,Flying,50.0,55.0,50.0,36.0,30.0,43.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+499,Pignite,Fire,Fighting,90.0,93.0,55.0,70.0,55.0,55.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+25,Pikachu,Electric,,35.0,55.0,40.0,50.0,50.0,90.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+221,Piloswine,Ice,Ground,100.0,100.0,80.0,60.0,60.0,50.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+204,Pineco,Bug,,50.0,65.0,90.0,35.0,35.0,15.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+127,Pinsir,Bug,,65.0,125.0,100.0,55.0,70.0,85.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+127,PinsirMega Pinsir,Bug,Flying,65.0,155.0,120.0,65.0,90.0,105.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+393,Piplup,Water,,53.0,51.0,53.0,61.0,56.0,40.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+311,Plusle,Electric,,60.0,50.0,40.0,85.0,75.0,95.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+186,Politoed,Water,,90.0,75.0,75.0,90.0,100.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+60,Poliwag,Water,,40.0,50.0,40.0,40.0,40.0,90.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+61,Poliwhirl,Water,,65.0,65.0,65.0,50.0,50.0,90.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+62,Poliwrath,Water,Fighting,90.0,95.0,95.0,70.0,90.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+77,Ponyta,Fire,,50.0,85.0,55.0,65.0,65.0,90.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+137,Porygon,Normal,,65.0,60.0,70.0,85.0,75.0,40.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+474,Porygon-Z,Normal,,85.0,80.0,70.0,135.0,75.0,90.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+233,Porygon2,Normal,,85.0,80.0,90.0,105.0,95.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+57,Primeape,Fighting,,65.0,105.0,60.0,60.0,70.0,95.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+394,Prinplup,Water,,64.0,66.0,68.0,81.0,76.0,50.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+476,Probopass,Rock,Steel,60.0,55.0,145.0,75.0,150.0,40.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+54,Psyduck,Water,,50.0,52.0,48.0,65.0,50.0,55.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+710,PumpkabooAverage Size,Ghost,Grass,49.0,66.0,70.0,44.0,55.0,51.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+710,PumpkabooLarge Size,Ghost,Grass,54.0,66.0,70.0,44.0,55.0,46.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+710,PumpkabooSmall Size,Ghost,Grass,44.0,66.0,70.0,44.0,55.0,56.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+710,PumpkabooSuper Size,Ghost,Grass,59.0,66.0,70.0,44.0,55.0,41.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+247,Pupitar,Rock,Ground,70.0,84.0,70.0,65.0,70.0,51.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+432,Purugly,Normal,,71.0,82.0,64.0,64.0,59.0,112.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+668,Pyroar,Fire,Normal,86.0,68.0,72.0,109.0,66.0,106.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+195,Quagsire,Water,Ground,95.0,85.0,85.0,65.0,65.0,35.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+156,Quilava,Fire,,58.0,64.0,58.0,80.0,65.0,80.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+211,Qwilfish,Water,Poison,65.0,95.0,75.0,55.0,55.0,85.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+26,Raichu,Electric,,60.0,90.0,55.0,90.0,80.0,110.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+243,Raikou,Electric,,90.0,85.0,75.0,115.0,100.0,115.0,true,Agua,Volador,Planta,Eléctrico,Tierra
+280,Ralts,Psychic,Fairy,28.0,25.0,25.0,45.0,35.0,40.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+409,Rampardos,Rock,,97.0,165.0,60.0,65.0,50.0,58.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+78,Rapidash,Fire,,65.0,100.0,70.0,80.0,80.0,105.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+20,Raticate,Normal,,55.0,81.0,60.0,50.0,70.0,97.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+19,Rattata,Normal,,30.0,56.0,35.0,25.0,35.0,72.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+384,Rayquaza,Dragon,Flying,105.0,150.0,90.0,150.0,90.0,95.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+384,RayquazaMega Rayquaza,Dragon,Flying,105.0,180.0,100.0,180.0,100.0,115.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+378,Regice,Ice,,80.0,50.0,100.0,100.0,200.0,50.0,true,Planta,Tierra,Fuego,Agua,Ninguno
+486,Regigigas,Normal,,110.0,160.0,110.0,80.0,110.0,100.0,true,Ninguna,Ninguna,Roca,Acero,Fantasma
+377,Regirock,Rock,,80.0,100.0,200.0,50.0,100.0,50.0,true,Fuego,Hielo,Lucha,Tierra,Ninguno
+379,Registeel,Steel,,80.0,75.0,150.0,75.0,150.0,50.0,true,Hielo,Roca,Fuego,Agua,Ninguno
+369,Relicanth,Water,Rock,100.0,90.0,130.0,45.0,65.0,55.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+223,Remoraid,Water,,35.0,65.0,35.0,65.0,35.0,65.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+643,Reshiram,Dragon,Fire,100.0,120.0,100.0,150.0,120.0,90.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+579,Reuniclus,Psychic,,110.0,65.0,75.0,125.0,85.0,30.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+112,Rhydon,Ground,Rock,105.0,130.0,120.0,45.0,45.0,40.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+111,Rhyhorn,Ground,Rock,80.0,85.0,95.0,30.0,30.0,25.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+464,Rhyperior,Ground,Rock,115.0,140.0,130.0,55.0,55.0,40.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+447,Riolu,Fighting,,40.0,70.0,40.0,35.0,40.0,60.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+524,Roggenrola,Rock,,55.0,75.0,85.0,25.0,25.0,15.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+479,Rotom,Electric,Ghost,50.0,50.0,77.0,95.0,77.0,91.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+479,RotomFan Rotom,Electric,Flying,50.0,65.0,107.0,105.0,107.0,86.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+479,RotomFrost Rotom,Electric,Ice,50.0,65.0,107.0,105.0,107.0,86.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+479,RotomHeat Rotom,Electric,Fire,50.0,65.0,107.0,105.0,107.0,86.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+479,RotomMow Rotom,Electric,Grass,50.0,65.0,107.0,105.0,107.0,86.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+479,RotomWash Rotom,Electric,Water,50.0,65.0,107.0,105.0,107.0,86.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+627,Rufflet,Normal,Flying,70.0,83.0,50.0,37.0,50.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+373,Salamence,Dragon,Flying,95.0,135.0,80.0,110.0,80.0,100.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+373,SalamenceMega Salamence,Dragon,Flying,95.0,145.0,130.0,120.0,90.0,120.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+503,Samurott,Water,,95.0,100.0,85.0,108.0,70.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+551,Sandile,Ground,Dark,50.0,72.0,35.0,35.0,35.0,65.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+27,Sandshrew,Ground,,50.0,75.0,85.0,20.0,30.0,40.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+28,Sandslash,Ground,,75.0,100.0,110.0,45.0,55.0,65.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+539,Sawk,Fighting,,75.0,125.0,75.0,30.0,75.0,85.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+586,Sawsbuck,Normal,Grass,80.0,100.0,70.0,60.0,70.0,95.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+664,Scatterbug,Bug,,38.0,35.0,40.0,27.0,25.0,35.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+212,Scizor,Bug,Steel,70.0,130.0,100.0,55.0,80.0,65.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+212,ScizorMega Scizor,Bug,Steel,70.0,150.0,140.0,65.0,100.0,75.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+545,Scolipede,Bug,Poison,60.0,100.0,89.0,55.0,69.0,112.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+123,Scyther,Bug,Flying,70.0,110.0,80.0,55.0,80.0,105.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+117,Seadra,Water,,55.0,65.0,95.0,95.0,45.0,85.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+119,Seaking,Water,,80.0,92.0,65.0,65.0,80.0,68.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+364,Sealeo,Ice,Water,90.0,60.0,70.0,75.0,70.0,45.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+86,Seel,Water,,65.0,45.0,55.0,45.0,70.0,45.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+537,Seismitoad,Water,Ground,105.0,95.0,75.0,85.0,75.0,74.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+161,Sentret,Normal,,35.0,46.0,34.0,35.0,45.0,20.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+336,Seviper,Poison,,73.0,100.0,60.0,100.0,60.0,65.0,false,Planta,NaN,Veneno,Tierra,Acero
+540,Sewaddle,Bug,Grass,45.0,53.0,70.0,40.0,60.0,42.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+319,Sharpedo,Water,Dark,70.0,120.0,40.0,95.0,40.0,95.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+319,SharpedoMega Sharpedo,Water,Dark,70.0,140.0,70.0,110.0,65.0,105.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+292,Shedinja,Bug,Ghost,1.0,90.0,45.0,30.0,30.0,40.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+372,Shelgon,Dragon,,65.0,95.0,100.0,60.0,50.0,50.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+90,Shellder,Water,,30.0,65.0,100.0,45.0,25.0,40.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+422,Shellos,Water,,76.0,48.0,48.0,57.0,62.0,34.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+616,Shelmet,Bug,,50.0,40.0,85.0,40.0,65.0,25.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+410,Shieldon,Rock,Steel,30.0,42.0,118.0,42.0,88.0,30.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+403,Shinx,Electric,,45.0,65.0,34.0,40.0,34.0,45.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+213,Shuckle,Bug,Rock,20.0,10.0,230.0,10.0,230.0,5.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+353,Shuppet,Ghost,,44.0,75.0,35.0,63.0,33.0,45.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+561,Sigilyph,Psychic,Flying,72.0,58.0,80.0,103.0,80.0,97.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+266,Silcoon,Bug,,50.0,35.0,55.0,25.0,25.0,15.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+516,Simipour,Water,,75.0,98.0,63.0,98.0,63.0,101.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+514,Simisear,Fire,,75.0,98.0,63.0,98.0,63.0,101.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+227,Skarmory,Steel,Flying,65.0,80.0,140.0,40.0,70.0,70.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+300,Skitty,Normal,,50.0,45.0,45.0,35.0,35.0,50.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+451,Skorupi,Poison,Bug,40.0,50.0,90.0,30.0,55.0,65.0,false,Planta,NaN,Veneno,Tierra,Acero
+690,Skrelp,Poison,Water,50.0,60.0,60.0,60.0,60.0,30.0,false,Planta,NaN,Veneno,Tierra,Acero
+435,Skuntank,Poison,Dark,103.0,93.0,67.0,71.0,61.0,84.0,false,Planta,NaN,Veneno,Tierra,Acero
+289,Slaking,Normal,,150.0,160.0,100.0,95.0,65.0,100.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+287,Slakoth,Normal,,60.0,60.0,60.0,35.0,35.0,30.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+705,Sliggoo,Dragon,,68.0,75.0,53.0,83.0,113.0,60.0,false,Dragón,NaN,Acero,Dragón,Ninguno
+80,Slowbro,Water,Psychic,95.0,75.0,110.0,100.0,80.0,30.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+80,SlowbroMega Slowbro,Water,Psychic,95.0,75.0,180.0,130.0,80.0,30.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+199,Slowking,Water,Psychic,95.0,75.0,80.0,100.0,110.0,30.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+79,Slowpoke,Water,Psychic,90.0,65.0,65.0,40.0,40.0,15.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+218,Slugma,Fire,,40.0,40.0,40.0,70.0,40.0,20.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+235,Smeargle,Normal,,55.0,20.0,35.0,20.0,45.0,75.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+238,Smoochum,Ice,Psychic,45.0,30.0,15.0,85.0,65.0,65.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+143,Snorlax,Normal,,160.0,110.0,65.0,65.0,110.0,30.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+361,Snorunt,Ice,,50.0,50.0,50.0,50.0,50.0,50.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+577,Solosis,Psychic,,45.0,30.0,40.0,105.0,50.0,20.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+338,Solrock,Rock,Psychic,70.0,95.0,85.0,55.0,65.0,70.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+21,Spearow,Normal,Flying,40.0,60.0,30.0,31.0,31.0,70.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+665,Spewpa,Bug,,45.0,22.0,60.0,27.0,30.0,29.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+363,Spheal,Ice,Water,70.0,40.0,50.0,55.0,50.0,25.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+167,Spinarak,Bug,Poison,40.0,60.0,40.0,40.0,40.0,30.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+327,Spinda,Normal,,60.0,60.0,60.0,60.0,60.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+442,Spiritomb,Ghost,Dark,50.0,92.0,108.0,92.0,108.0,35.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+325,Spoink,Psychic,,60.0,25.0,35.0,70.0,80.0,60.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+7,Squirtle,Water,,44.0,48.0,65.0,50.0,64.0,43.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+234,Stantler,Normal,,73.0,95.0,62.0,85.0,65.0,85.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+398,Staraptor,Normal,Flying,85.0,120.0,70.0,50.0,60.0,100.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+397,Staravia,Normal,Flying,55.0,75.0,50.0,40.0,40.0,80.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+396,Starly,Normal,Flying,40.0,55.0,30.0,30.0,30.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+121,Starmie,Water,Psychic,60.0,75.0,85.0,100.0,85.0,115.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+120,Staryu,Water,,30.0,45.0,55.0,70.0,55.0,85.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+208,Steelix,Steel,Ground,75.0,85.0,200.0,55.0,65.0,30.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+208,SteelixMega Steelix,Steel,Ground,75.0,125.0,230.0,55.0,95.0,30.0,false,Hielo,Roca,Fuego,Agua,Ninguno
+508,Stoutland,Normal,,85.0,110.0,90.0,45.0,90.0,80.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+618,Stunfisk,Ground,Electric,109.0,66.0,84.0,81.0,99.0,32.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+434,Stunky,Poison,Dark,63.0,63.0,47.0,41.0,41.0,74.0,false,Planta,NaN,Veneno,Tierra,Acero
+185,Sudowoodo,Rock,,70.0,100.0,115.0,30.0,65.0,30.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+245,Suicune,Water,,100.0,75.0,115.0,90.0,115.0,85.0,true,Fuego,Tierra,Agua,Planta,Ninguno
+283,Surskit,Bug,Water,40.0,30.0,32.0,50.0,52.0,65.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+333,Swablu,Normal,Flying,45.0,40.0,60.0,40.0,75.0,50.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+541,Swadloon,Bug,Grass,55.0,63.0,90.0,50.0,80.0,42.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+317,Swalot,Poison,,100.0,73.0,83.0,73.0,83.0,55.0,false,Planta,NaN,Veneno,Tierra,Acero
+260,Swampert,Water,Ground,100.0,110.0,90.0,85.0,90.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+260,SwampertMega Swampert,Water,Ground,100.0,150.0,110.0,95.0,110.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+581,Swanna,Water,Flying,75.0,87.0,63.0,87.0,63.0,98.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+277,Swellow,Normal,Flying,60.0,85.0,60.0,50.0,50.0,125.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+220,Swinub,Ice,Ground,50.0,50.0,40.0,30.0,30.0,50.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+528,Swoobat,Psychic,Flying,67.0,57.0,55.0,77.0,55.0,114.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+276,Taillow,Normal,Flying,40.0,55.0,30.0,30.0,30.0,85.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+663,Talonflame,Fire,Flying,78.0,81.0,71.0,74.0,69.0,126.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+128,Tauros,Normal,,75.0,100.0,95.0,40.0,70.0,110.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+216,Teddiursa,Normal,,60.0,80.0,50.0,50.0,50.0,40.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+72,Tentacool,Water,Poison,40.0,40.0,35.0,50.0,100.0,70.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+73,Tentacruel,Water,Poison,80.0,70.0,65.0,80.0,120.0,100.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+498,Tepig,Fire,,65.0,63.0,45.0,45.0,45.0,45.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+639,Terrakion,Rock,Fighting,91.0,129.0,90.0,72.0,90.0,108.0,true,Fuego,Hielo,Lucha,Tierra,Ninguno
+538,Throh,Fighting,,120.0,100.0,85.0,30.0,85.0,45.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+642,ThundurusIncarnate Forme,Electric,Flying,79.0,115.0,70.0,125.0,80.0,111.0,true,Agua,Volador,Planta,Eléctrico,Tierra
+642,ThundurusTherian Forme,Electric,Flying,79.0,105.0,70.0,145.0,80.0,101.0,true,Agua,Volador,Planta,Eléctrico,Tierra
+532,Timburr,Fighting,,75.0,80.0,55.0,25.0,35.0,35.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+564,Tirtouga,Water,Rock,54.0,78.0,103.0,53.0,45.0,22.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+255,Torchic,Fire,,45.0,60.0,40.0,70.0,50.0,45.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+324,Torkoal,Fire,,70.0,85.0,140.0,85.0,70.0,20.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+641,TornadusIncarnate Forme,Flying,,79.0,115.0,70.0,125.0,80.0,111.0,true,Planta,Volador,Eléctrico,Roca,Ninguno
+641,TornadusTherian Forme,Flying,,79.0,100.0,80.0,110.0,90.0,121.0,true,Planta,Volador,Eléctrico,Roca,Ninguno
+158,Totodile,Water,,50.0,65.0,64.0,44.0,48.0,43.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+454,Toxicroak,Poison,Fighting,83.0,106.0,65.0,86.0,65.0,85.0,false,Planta,NaN,Veneno,Tierra,Acero
+520,Tranquill,Normal,Flying,62.0,77.0,62.0,50.0,42.0,65.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+328,Trapinch,Ground,,45.0,100.0,45.0,45.0,45.0,10.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+709,Trevenant,Ghost,Grass,85.0,110.0,76.0,65.0,82.0,56.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+568,Trubbish,Poison,,50.0,50.0,62.0,40.0,62.0,65.0,false,Planta,NaN,Veneno,Tierra,Acero
+535,Tympole,Water,,50.0,50.0,40.0,50.0,40.0,64.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+602,Tynamo,Electric,,35.0,55.0,40.0,45.0,40.0,60.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+157,Typhlosion,Fire,,78.0,84.0,78.0,109.0,85.0,100.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+248,Tyranitar,Rock,Dark,100.0,134.0,110.0,95.0,100.0,61.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+248,TyranitarMega Tyranitar,Rock,Dark,100.0,164.0,150.0,95.0,120.0,71.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+697,Tyrantrum,Rock,Dragon,82.0,121.0,119.0,69.0,59.0,71.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+236,Tyrogue,Fighting,,35.0,35.0,35.0,35.0,35.0,35.0,false,Normal,Hielo,Veneno,Volador,Fantasma
+696,Tyrunt,Rock,Dragon,58.0,89.0,77.0,45.0,45.0,48.0,false,Fuego,Hielo,Lucha,Tierra,Ninguno
+521,Unfezant,Normal,Flying,80.0,115.0,80.0,65.0,55.0,93.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+201,Unown,Psychic,,48.0,72.0,48.0,72.0,48.0,48.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+217,Ursaring,Normal,,90.0,130.0,75.0,75.0,75.0,55.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+480,Uxie,Psychic,,75.0,75.0,130.0,75.0,130.0,95.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+583,Vanillish,Ice,,51.0,65.0,65.0,80.0,75.0,59.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+582,Vanillite,Ice,,36.0,50.0,50.0,65.0,60.0,44.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+584,Vanilluxe,Ice,,71.0,95.0,85.0,110.0,95.0,79.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+134,Vaporeon,Water,,130.0,65.0,60.0,110.0,95.0,65.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+543,Venipede,Bug,Poison,30.0,45.0,59.0,30.0,39.0,57.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+49,Venomoth,Bug,Poison,70.0,65.0,60.0,90.0,75.0,90.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+48,Venonat,Bug,Poison,60.0,55.0,50.0,40.0,55.0,45.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+416,Vespiquen,Bug,Flying,70.0,80.0,102.0,80.0,102.0,40.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+329,Vibrava,Ground,Dragon,50.0,70.0,50.0,50.0,50.0,70.0,false,Fuego,Eléctrico,Planta,Bicho,Volador
+494,Victini,Psychic,Fire,100.0,100.0,100.0,100.0,100.0,100.0,true,Luchador,Veneno,Psíquico,Acero,Siniestro
+288,Vigoroth,Normal,,80.0,80.0,80.0,55.0,55.0,90.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+666,Vivillon,Bug,Flying,80.0,52.0,50.0,90.0,50.0,89.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+313,Volbeat,Bug,,65.0,73.0,55.0,47.0,75.0,85.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+721,Volcanion,Fire,Water,80.0,110.0,120.0,130.0,90.0,70.0,true,Planta,Hielo,Fuego,Agua,Ninguno
+637,Volcarona,Bug,Fire,85.0,60.0,65.0,135.0,105.0,100.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+100,Voltorb,Electric,,40.0,30.0,50.0,55.0,55.0,100.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+37,Vulpix,Fire,,38.0,41.0,40.0,50.0,65.0,65.0,false,Planta,Hielo,Fuego,Agua,Ninguno
+320,Wailmer,Water,,130.0,70.0,35.0,70.0,35.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+321,Wailord,Water,,170.0,90.0,45.0,90.0,45.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+365,Walrein,Ice,Water,110.0,80.0,90.0,95.0,90.0,65.0,false,Planta,Tierra,Fuego,Agua,Ninguno
+8,Wartortle,Water,,59.0,63.0,80.0,65.0,80.0,58.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+505,Watchog,Normal,,60.0,85.0,69.0,60.0,69.0,77.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+13,Weedle,Bug,Poison,40.0,35.0,30.0,20.0,20.0,50.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+110,Weezing,Poison,,65.0,90.0,120.0,85.0,70.0,60.0,false,Planta,NaN,Veneno,Tierra,Acero
+544,Whirlipede,Bug,Poison,40.0,55.0,99.0,40.0,79.0,47.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+340,Whiscash,Water,Ground,110.0,78.0,73.0,76.0,71.0,60.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+293,Whismur,Normal,,64.0,51.0,23.0,51.0,23.0,28.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+40,Wigglytuff,Normal,,140.0,70.0,45.0,85.0,50.0,45.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+278,Wingull,Water,Flying,40.0,30.0,30.0,55.0,30.0,85.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+202,Wobbuffet,Psychic,,190.0,33.0,58.0,33.0,58.0,33.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+527,Woobat,Psychic,Flying,55.0,45.0,43.0,55.0,43.0,72.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+194,Wooper,Water,Ground,55.0,45.0,45.0,25.0,25.0,15.0,false,Fuego,Tierra,Agua,Planta,Ninguno
+413,WormadamPlant Cloak,Bug,Grass,60.0,59.0,85.0,79.0,105.0,36.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+413,WormadamSandy Cloak,Bug,Ground,60.0,79.0,105.0,59.0,85.0,36.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+413,WormadamTrash Cloak,Bug,Steel,60.0,69.0,95.0,69.0,95.0,36.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+265,Wurmple,Bug,,45.0,45.0,35.0,20.0,30.0,20.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+360,Wynaut,Psychic,,95.0,23.0,48.0,23.0,48.0,23.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+178,Xatu,Psychic,Flying,65.0,75.0,70.0,95.0,70.0,95.0,false,Luchador,Veneno,Psíquico,Acero,Siniestro
+562,Yamask,Ghost,,38.0,30.0,85.0,55.0,65.0,30.0,false,Psíquico,Fantasma,Siniestro,Acero,Normal
+193,Yanma,Bug,Flying,65.0,65.0,45.0,75.0,45.0,95.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+469,Yanmega,Bug,Flying,86.0,76.0,86.0,116.0,56.0,95.0,false,Planta,Psíquico,Fuego,Lucha,Ninguno
+335,Zangoose,Normal,,73.0,115.0,60.0,60.0,60.0,90.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+145,Zapdos,Electric,Flying,90.0,90.0,85.0,125.0,90.0,100.0,true,Agua,Volador,Planta,Eléctrico,Tierra
+523,Zebstrika,Electric,,75.0,100.0,63.0,80.0,63.0,116.0,false,Agua,Volador,Planta,Eléctrico,Tierra
+644,Zekrom,Dragon,Electric,100.0,150.0,120.0,120.0,100.0,90.0,true,Dragón,NaN,Acero,Dragón,Ninguno
+263,Zigzagoon,Normal,,38.0,30.0,41.0,30.0,41.0,60.0,false,Ninguna,Ninguna,Roca,Acero,Fantasma
+41,Zubat,Poison,Flying,40.0,45.0,35.0,30.0,40.0,55.0,false,Planta,NaN,Veneno,Tierra,Acero
+718,Zygarde50% Forme,Dragon,Ground,108.0,100.0,121.0,81.0,95.0,95.0,true,Dragón,NaN,Acero,Dragón,Ninguno
