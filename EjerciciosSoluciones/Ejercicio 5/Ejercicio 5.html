@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ejercicio 1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Ejercicio 5</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14592,20 +14592,29 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Ejercicio-1">Ejercicio 1<a class="anchor-link" href="#Ejercicio-1">&#182;</a></h1><ol>
-<li>Crea un rdd llamado nameRDD a partir de la siguiente lista de nombres:<ul>
-<li>Namelist = ["Hugo","Erick","Biel","Antonio","Manuel","Francisco", "Eduardo","Daniel","Juan","Lucía","María","Martina","Sofía","Emma","Julia", "Daniela","Carla","Alma","Olivia","Vega","Lola","Valentina"]</li>
+<h1 id="Ejercicio-5">Ejercicio 5<a class="anchor-link" href="#Ejercicio-5">&#182;</a></h1><p>Inicializa una sesión de spark en consola y coloca en una variable la información de cada archivo
+csv que se proporciona:</p>
+<ul>
+<li>Realiza una unión para unir todos los pokemon de cada generación</li>
+<li>Devuelve un conteo por generación y muestra el resultado en pantalla</li>
+<li>Devuelve un conteo por Type_1 y muestra el resultado en pantalla</li>
+<li>Devuelve un conteo por pokemon legendarios y muestra el resultado en pantalla</li>
+<li>Devuelve el pokemon con más puntos de:<ul>
+<li>Vida (hp)</li>
+<li>Ataque (attack)</li>
+<li>Defensa (defense)</li>
 </ul>
 </li>
-<li>Crea un rdd llamado anotherRDD a partir de nameRDD cuya salida sea:<ul>
-<li>Nombre+ "2nd" -&gt; ["Hugo2nd","Erick2nd","Biel2nd"...."Valentina2nd"]</li>
+<li>Devuelve el pokemon con menos puntos de:<ul>
+<li>Ataque especial (sp_attack)</li>
+<li>Defensa especial (sp_defense)</li>
+<li>Velocidad (speed)</li>
 </ul>
 </li>
-<li>Crea un pair rdd llamado pairRDD a partir de nameRDD usando un map cuya salida sea:<ul>
-<li>(Nombre, 20) -&gt; [("Hugo",20),("Erick",20),("Biel",20)....("Valentina",20)]</li>
+<li>Realiza un Join de la información de los pokemon y sus ventajas</li>
+<li>Del resultado final, devuelve toda la información del pokemon, pero solo la información de las primeras 2 ventajas, las primeras 2 desventajas y el campo “sin_efecto”</li>
+<li>Escribe el resultado en un archivo parquet pkmn_result__info.parquet</li>
 </ul>
-</li>
-</ol>
 
 </div>
 </div>
@@ -14626,7 +14635,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">findspark</span>
@@ -14652,26 +14661,36 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Punto-%231">Punto #1<a class="anchor-link" href="#Punto-%231">&#182;</a></h2><p>Crea un rdd llamado nameRDD a partir de la siguiente lista de nombres:</p>
-<ul>
-<li>Namelist = ["Hugo","Erick","Biel","Antonio","Manuel","Francisco", "Eduardo","Daniel","Juan","Lucía","María","Martina","Sofía","Emma","Julia", "Daniela","Carla","Alma","Olivia","Vega","Lola","Valentina"]</li>
-</ul>
+<h1 id="Punto-%231">Punto #1<a class="anchor-link" href="#Punto-%231">&#182;</a></h1><p>coloca en una variable la información de cada archivo csv que se proporciona:</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Namelist</span> <span class="o">=</span>  <span class="p">[</span><span class="s2">&quot;Hugo&quot;</span><span class="p">,</span><span class="s2">&quot;Erick&quot;</span><span class="p">,</span><span class="s2">&quot;Biel&quot;</span><span class="p">,</span><span class="s2">&quot;Antonio&quot;</span><span class="p">,</span><span class="s2">&quot;Manuel&quot;</span><span class="p">,</span><span class="s2">&quot;Francisco&quot;</span><span class="p">,</span> <span class="s2">&quot;Eduardo&quot;</span><span class="p">,</span><span class="s2">&quot;Daniel&quot;</span><span class="p">,</span><span class="s2">&quot;Juan&quot;</span><span class="p">,</span><span class="s2">&quot;Lucía&quot;</span><span class="p">,</span><span class="s2">&quot;María&quot;</span><span class="p">,</span><span class="s2">&quot;Martina&quot;</span><span class="p">,</span><span class="s2">&quot;Sofía&quot;</span><span class="p">,</span><span class="s2">&quot;Emma&quot;</span><span class="p">,</span><span class="s2">&quot;Julia&quot;</span><span class="p">,</span> <span class="s2">&quot;Daniela&quot;</span><span class="p">,</span><span class="s2">&quot;Carla&quot;</span><span class="p">,</span><span class="s2">&quot;Alma&quot;</span><span class="p">,</span><span class="s2">&quot;Olivia&quot;</span><span class="p">,</span><span class="s2">&quot;Vega&quot;</span><span class="p">,</span><span class="s2">&quot;Lola&quot;</span><span class="p">,</span><span class="s2">&quot;Valentina&quot;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Usaremos esta funcion de forma auxiliar para darle formato a los dataframes ya que </span>
+<span class="sd">se infiere que los numeros son String y arreglaremos este problema para evitar posibles</span>
+<span class="sd">errores al manipular los valores</span>
+<span class="sd">&quot;&quot;&quot;</span>
 
-<span class="n">nameRDD</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">parallelize</span><span class="p">(</span><span class="n">Namelist</span><span class="p">)</span>
-<span class="n">nameRDD</span><span class="o">.</span><span class="n">collect</span><span class="p">()</span>
+<span class="kn">from</span> <span class="nn">pyspark.sql.types</span> <span class="kn">import</span> <span class="n">FloatType</span>
+<span class="kn">from</span> <span class="nn">pyspark.sql.functions</span> <span class="kn">import</span> <span class="n">regexp_replace</span>
+
+
+<span class="k">def</span> <span class="nf">formatPkmnDataframe</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="n">dataframe</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">read</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">inferSchema</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+    <span class="n">columnas</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;hp&quot;</span><span class="p">,</span> <span class="s2">&quot;attack&quot;</span><span class="p">,</span> <span class="s2">&quot;defense&quot;</span><span class="p">,</span> <span class="s2">&quot;sp_atk&quot;</span><span class="p">,</span> <span class="s2">&quot;sp_def&quot;</span><span class="p">,</span> <span class="s2">&quot;speed&quot;</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">columna</span> <span class="ow">in</span> <span class="n">columnas</span><span class="p">:</span> 
+        <span class="n">dataframe</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="n">columna</span><span class="p">,</span> <span class="n">regexp_replace</span><span class="p">(</span><span class="n">columna</span><span class="p">,</span> <span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="s2">&quot;.&quot;</span><span class="p">))</span>
+        <span class="n">dataframe</span> <span class="o">=</span> <span class="n">dataframe</span><span class="o">.</span><span class="n">withColumn</span><span class="p">(</span><span class="n">columna</span><span class="p">,</span> <span class="n">dataframe</span><span class="p">[</span><span class="n">columna</span><span class="p">]</span><span class="o">.</span><span class="n">cast</span><span class="p">(</span><span class="n">FloatType</span><span class="p">()))</span>
+    <span class="k">return</span> <span class="n">dataframe</span>
 </pre></div>
 
      </div>
@@ -14679,67 +14698,27 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Hugo&#39;,
- &#39;Erick&#39;,
- &#39;Biel&#39;,
- &#39;Antonio&#39;,
- &#39;Manuel&#39;,
- &#39;Francisco&#39;,
- &#39;Eduardo&#39;,
- &#39;Daniel&#39;,
- &#39;Juan&#39;,
- &#39;Lucía&#39;,
- &#39;María&#39;,
- &#39;Martina&#39;,
- &#39;Sofía&#39;,
- &#39;Emma&#39;,
- &#39;Julia&#39;,
- &#39;Daniela&#39;,
- &#39;Carla&#39;,
- &#39;Alma&#39;,
- &#39;Olivia&#39;,
- &#39;Vega&#39;,
- &#39;Lola&#39;,
- &#39;Valentina&#39;]</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Punto-%232">Punto #2<a class="anchor-link" href="#Punto-%232">&#182;</a></h2><p>Crea un rdd llamado anotherRDD a partir de nameRDD cuya salida sea:</p>
-<ul>
-<li>Nombre+ "2nd" -&gt; ["Hugo2nd","Erick2nd","Biel2nd"...."Valentina2nd"]</li>
-</ul>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pkmn_gen_1</span> <span class="o">=</span> <span class="n">formatPkmnDataframe</span><span class="p">(</span><span class="s2">&quot;Data/pkmn_gen_1.csv&quot;</span><span class="p">)</span>
+<span class="n">pkmn_gen_2</span> <span class="o">=</span> <span class="n">formatPkmnDataframe</span><span class="p">(</span><span class="s2">&quot;Data/pkmn_gen_2.csv&quot;</span><span class="p">)</span>
+<span class="n">pkmn_gen_3</span> <span class="o">=</span> <span class="n">formatPkmnDataframe</span><span class="p">(</span><span class="s2">&quot;Data/pkmn_gen_3.csv&quot;</span><span class="p">)</span>
+<span class="n">pkmn_gen_4</span> <span class="o">=</span> <span class="n">formatPkmnDataframe</span><span class="p">(</span><span class="s2">&quot;Data/pkmn_gen_4.csv&quot;</span><span class="p">)</span>
+<span class="n">pkmn_gen_5</span> <span class="o">=</span> <span class="n">formatPkmnDataframe</span><span class="p">(</span><span class="s2">&quot;Data/pkmn_gen_5.csv&quot;</span><span class="p">)</span>
+<span class="n">pkmn_gen_6</span> <span class="o">=</span> <span class="n">formatPkmnDataframe</span><span class="p">(</span><span class="s2">&quot;Data/pkmn_gen_6.csv&quot;</span><span class="p">)</span>
+</pre></div>
 
+     </div>
 </div>
 </div>
 </div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14748,8 +14727,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">anotherRDD</span> <span class="o">=</span> <span class="n">nameRDD</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">name</span><span class="p">:</span> <span class="n">name</span> <span class="o">+</span> <span class="s2">&quot;2nd&quot;</span><span class="p">)</span>
-<span class="n">anotherRDD</span><span class="o">.</span><span class="n">collect</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pkmn_gen_1</span><span class="o">.</span><span class="n">printSchema</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -14767,36 +14745,25 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>root
+ |-- id: integer (nullable = true)
+ |-- name: string (nullable = true)
+ |-- type_1: string (nullable = true)
+ |-- type_2: string (nullable = true)
+ |-- hp: float (nullable = true)
+ |-- attack: float (nullable = true)
+ |-- defense: float (nullable = true)
+ |-- sp_atk: float (nullable = true)
+ |-- sp_def: float (nullable = true)
+ |-- speed: float (nullable = true)
+ |-- legendary: boolean (nullable = true)
 
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;Hugo2nd&#39;,
- &#39;Erick2nd&#39;,
- &#39;Biel2nd&#39;,
- &#39;Antonio2nd&#39;,
- &#39;Manuel2nd&#39;,
- &#39;Francisco2nd&#39;,
- &#39;Eduardo2nd&#39;,
- &#39;Daniel2nd&#39;,
- &#39;Juan2nd&#39;,
- &#39;Lucía2nd&#39;,
- &#39;María2nd&#39;,
- &#39;Martina2nd&#39;,
- &#39;Sofía2nd&#39;,
- &#39;Emma2nd&#39;,
- &#39;Julia2nd&#39;,
- &#39;Daniela2nd&#39;,
- &#39;Carla2nd&#39;,
- &#39;Alma2nd&#39;,
- &#39;Olivia2nd&#39;,
- &#39;Vega2nd&#39;,
- &#39;Lola2nd&#39;,
- &#39;Valentina2nd&#39;]</pre>
+</pre>
 </div>
-
 </div>
 
 </div>
@@ -14810,10 +14777,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Punto-%23-3">Punto # 3<a class="anchor-link" href="#Punto-%23-3">&#182;</a></h2><p>Crea un pair rdd llamado pairRDD a partir de nameRDD usando un map cuya salida sea:</p>
-<ul>
-<li>(Nombre, 20) -&gt; [("Hugo",20),("Erick",20),("Biel",20)....("Valentina",20)]</li>
-</ul>
+<h2 id="Punto-%232">Punto #2<a class="anchor-link" href="#Punto-%232">&#182;</a></h2><p>Realiza una unión para unir todos los pokemon de cada generación</p>
 
 </div>
 </div>
@@ -14826,8 +14790,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pairRDD</span> <span class="o">=</span> <span class="n">nameRDD</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">name</span><span class="p">:</span> <span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="mi">20</span><span class="p">))</span>
-<span class="n">pairRDD</span><span class="o">.</span><span class="n">collect</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">reduce</span>
+<span class="kn">from</span> <span class="nn">pyspark.sql</span> <span class="kn">import</span> <span class="n">DataFrame</span>
+
+<span class="n">all_pkmn</span> <span class="o">=</span> <span class="p">[</span><span class="n">pkmn_gen_1</span><span class="p">,</span> <span class="n">pkmn_gen_2</span><span class="p">,</span> <span class="n">pkmn_gen_3</span><span class="p">,</span> <span class="n">pkmn_gen_4</span><span class="p">,</span> <span class="n">pkmn_gen_5</span><span class="p">,</span> <span class="n">pkmn_gen_6</span><span class="p">]</span>
+
+<span class="c1"># Utilizamos reduce para unir todos los DataFrames en uno solo</span>
+<span class="n">all_pkmn</span> <span class="o">=</span> <span class="n">reduce</span><span class="p">(</span><span class="n">DataFrame</span><span class="o">.</span><span class="n">union</span><span class="p">,</span> <span class="n">all_pkmn</span><span class="p">)</span>
+
+<span class="n">all_pkmn</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14845,40 +14816,550 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+---+--------------------+------+------+----+------+-------+------+------+-----+---------+
+| id|                name|type_1|type_2|  hp|attack|defense|sp_atk|sp_def|speed|legendary|
++---+--------------------+------+------+----+------+-------+------+------+-----+---------+
+|  1|           Bulbasaur| Grass|Poison|45.0|  49.0|   49.0|  65.0|  65.0| 45.0|    false|
+|  2|             Ivysaur| Grass|Poison|60.0|  62.0|   63.0|  80.0|  80.0| 60.0|    false|
+|  3|            Venusaur| Grass|Poison|80.0|  82.0|   83.0| 100.0| 100.0| 80.0|    false|
+|  3|VenusaurMega Venu...| Grass|Poison|80.0| 100.0|  123.0| 122.0| 120.0| 80.0|    false|
+|  4|          Charmander|  Fire|  null|39.0|  52.0|   43.0|  60.0|  50.0| 65.0|    false|
++---+--------------------+------+------+----+------+-------+------+------+-----+---------+
+only showing top 5 rows
 
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[(&#39;Hugo&#39;, 20),
- (&#39;Erick&#39;, 20),
- (&#39;Biel&#39;, 20),
- (&#39;Antonio&#39;, 20),
- (&#39;Manuel&#39;, 20),
- (&#39;Francisco&#39;, 20),
- (&#39;Eduardo&#39;, 20),
- (&#39;Daniel&#39;, 20),
- (&#39;Juan&#39;, 20),
- (&#39;Lucía&#39;, 20),
- (&#39;María&#39;, 20),
- (&#39;Martina&#39;, 20),
- (&#39;Sofía&#39;, 20),
- (&#39;Emma&#39;, 20),
- (&#39;Julia&#39;, 20),
- (&#39;Daniela&#39;, 20),
- (&#39;Carla&#39;, 20),
- (&#39;Alma&#39;, 20),
- (&#39;Olivia&#39;, 20),
- (&#39;Vega&#39;, 20),
- (&#39;Lola&#39;, 20),
- (&#39;Valentina&#39;, 20)]</pre>
+</pre>
+</div>
 </div>
 
 </div>
 
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%233">Punto #3<a class="anchor-link" href="#Punto-%233">&#182;</a></h2><p>Devuelve un conteo por generación y muestra el resultado en pantalla</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Existen </span><span class="si">{}</span><span class="s2"> pokemon en la 1° generacion&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pkmn_gen_1</span><span class="o">.</span><span class="n">count</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Existen </span><span class="si">{}</span><span class="s2"> pokemon en la 2° generacion&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pkmn_gen_2</span><span class="o">.</span><span class="n">count</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Existen </span><span class="si">{}</span><span class="s2"> pokemon en la 3° generacion&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pkmn_gen_3</span><span class="o">.</span><span class="n">count</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Existen </span><span class="si">{}</span><span class="s2"> pokemon en la 4° generacion&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pkmn_gen_4</span><span class="o">.</span><span class="n">count</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Existen </span><span class="si">{}</span><span class="s2"> pokemon en la 5° generacion&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pkmn_gen_5</span><span class="o">.</span><span class="n">count</span><span class="p">()))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Existen </span><span class="si">{}</span><span class="s2"> pokemon en la 6° generacion&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pkmn_gen_6</span><span class="o">.</span><span class="n">count</span><span class="p">()))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Existen 166 pokemon en la 1° generacion
+Existen 106 pokemon en la 2° generacion
+Existen 160 pokemon en la 3° generacion
+Existen 121 pokemon en la 4° generacion
+Existen 165 pokemon en la 5° generacion
+Existen 82 pokemon en la 6° generacion
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%234">Punto #4<a class="anchor-link" href="#Punto-%234">&#182;</a></h2><p>Devuelve un conteo por Type_1 y muestra el resultado en pantalla</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.sql.functions</span> <span class="kn">import</span> <span class="n">count</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cantidad de pokemon por tipo de la generacion 1 a la 6&quot;</span><span class="p">)</span>
+<span class="n">pkmn_type1</span> <span class="o">=</span> <span class="n">all_pkmn</span><span class="o">.</span><span class="n">groupBy</span><span class="p">(</span><span class="s2">&quot;type_1&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="n">count</span><span class="p">(</span><span class="s2">&quot;type_1&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">alias</span><span class="p">(</span><span class="s2">&quot;Cantidad&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Cantidad de pokemon por tipo de la generacion 1 a la 6
++--------+--------+
+|  type_1|Cantidad|
++--------+--------+
+|   Water|     112|
+|  Poison|      28|
+|    Rock|      44|
+|     Ice|      24|
+|   Ghost|      32|
+| Psychic|      57|
+|  Dragon|      32|
+|     Bug|      69|
+|Electric|      44|
+|    Fire|      52|
+|  Ground|      32|
+|Fighting|      27|
+|   Grass|      70|
+|  Normal|     100|
+|   Steel|      27|
+|   Fairy|      15|
+|    Dark|      31|
+|  Flying|       4|
++--------+--------+
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%235">Punto #5<a class="anchor-link" href="#Punto-%235">&#182;</a></h2><p>Devuelve un conteo por pokemon legendarios y muestra el resultado en pantalla</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cantidad</span> <span class="o">=</span> <span class="n">all_pkmn</span><span class="o">.</span><span class="n">filter</span><span class="p">(</span><span class="n">all_pkmn</span><span class="p">[</span><span class="s2">&quot;legendary&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Entre la generacion 1 a la 6 hay un total de </span><span class="si">{}</span><span class="s2"> Legentarios&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">cantidad</span><span class="p">))</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Entre la generacion 1 a la 6 hay un total de 65 Legentarios
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%236">Punto #6<a class="anchor-link" href="#Punto-%236">&#182;</a></h2><p>Devuelve el pokemon con más puntos de:</p>
+<ul>
+<li>Vida (hp)</li>
+<li>Ataque (attack)</li>
+<li>Defensa (defense)</li>
+</ul>
+<blockquote><p><strong>En este caso usamos show para mostrar el que tiene mas puntos de una manera mas bonita, pero se puede usar .first() para obtener unicamente el primero</strong></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.sql.functions</span> <span class="kn">import</span> <span class="n">desc</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pokemon con más puntos de vida&quot;</span><span class="p">)</span>
+<span class="n">all_pkmn</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">desc</span><span class="p">(</span><span class="s2">&quot;hp&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pokemon con más puntos de ataque&quot;</span><span class="p">)</span>
+<span class="n">all_pkmn</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">desc</span><span class="p">(</span><span class="s2">&quot;attack&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pokemon con más puntos de defensa&quot;</span><span class="p">)</span>
+<span class="n">all_pkmn</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="n">desc</span><span class="p">(</span><span class="s2">&quot;defense&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Pokemon con más puntos de vida
++---+-------+------+------+-----+------+-------+------+------+-----+---------+
+| id|   name|type_1|type_2|   hp|attack|defense|sp_atk|sp_def|speed|legendary|
++---+-------+------+------+-----+------+-------+------+------+-----+---------+
+|242|Blissey|Normal|  null|255.0|  10.0|   10.0|  75.0| 135.0| 55.0|    false|
++---+-------+------+------+-----+------+-------+------+------+-----+---------+
+only showing top 1 row
+
+Pokemon con más puntos de ataque
++---+-------------------+-------+--------+-----+------+-------+------+------+-----+---------+
+| id|               name| type_1|  type_2|   hp|attack|defense|sp_atk|sp_def|speed|legendary|
++---+-------------------+-------+--------+-----+------+-------+------+------+-----+---------+
+|150|MewtwoMega Mewtwo X|Psychic|Fighting|106.0| 190.0|  100.0| 154.0| 100.0|130.0|     true|
++---+-------------------+-------+--------+-----+------+-------+------+------+-----+---------+
+only showing top 1 row
+
+Pokemon con más puntos de defensa
++---+-------------------+------+------+----+------+-------+------+------+-----+---------+
+| id|               name|type_1|type_2|  hp|attack|defense|sp_atk|sp_def|speed|legendary|
++---+-------------------+------+------+----+------+-------+------+------+-----+---------+
+|208|SteelixMega Steelix| Steel|Ground|75.0| 125.0|  230.0|  55.0|  95.0| 30.0|    false|
++---+-------------------+------+------+----+------+-------+------+------+-----+---------+
+only showing top 1 row
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%237">Punto #7<a class="anchor-link" href="#Punto-%237">&#182;</a></h2><p>Devuelve el pokemon con menos puntos de:</p>
+<ul>
+<li>Ataque especial (sp_attack)</li>
+<li>Defensa especial (sp_defense)</li>
+<li>Velocidad (speed)</li>
+</ul>
+<blockquote><p><strong>En este caso usamos show para mostrar el que tiene mas puntos de una manera mas bonita, pero se puede usar .first() para obtener unicamente el primero</strong></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pokemon con menos puntos de ataque especial&quot;</span><span class="p">)</span>
+<span class="n">all_pkmn</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="s2">&quot;sp_atk&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pokemon con menos puntos de defensa especial&quot;</span><span class="p">)</span>
+<span class="n">all_pkmn</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="s2">&quot;sp_def&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pokemon con menos puntos de valocidad&quot;</span><span class="p">)</span>
+<span class="n">all_pkmn</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="s2">&quot;speed&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Pokemon con menos puntos de ataque especial
++---+------+------+------+----+------+-------+------+------+-----+---------+
+| id|  name|type_1|type_2|  hp|attack|defense|sp_atk|sp_def|speed|legendary|
++---+------+------+------+----+------+-------+------+------+-----+---------+
+|438|Bonsly|  Rock|  null|50.0|  80.0|   95.0|  10.0|  45.0| 10.0|    false|
++---+------+------+------+----+------+-------+------+------+-----+---------+
+only showing top 1 row
+
+Pokemon con menos puntos de defensa especial
++---+--------+------+------+----+------+-------+------+------+-----+---------+
+| id|    name|type_1|type_2|  hp|attack|defense|sp_atk|sp_def|speed|legendary|
++---+--------+------+------+----+------+-------+------+------+-----+---------+
+|318|Carvanha| Water|  Dark|45.0|  90.0|   20.0|  65.0|  20.0| 65.0|    false|
++---+--------+------+------+----+------+-------+------+------+-----+---------+
+only showing top 1 row
+
+Pokemon con menos puntos de valocidad
++---+-------+------+------+----+------+-------+------+------+-----+---------+
+| id|   name|type_1|type_2|  hp|attack|defense|sp_atk|sp_def|speed|legendary|
++---+-------+------+------+----+------+-------+------+------+-----+---------+
+|213|Shuckle|   Bug|  Rock|20.0|  10.0|  230.0|  10.0| 230.0|  5.0|    false|
++---+-------+------+------+----+------+-------+------+------+-----+---------+
+only showing top 1 row
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%238">Punto #8<a class="anchor-link" href="#Punto-%238">&#182;</a></h2><p>Realiza un Join de la información de los pokemon y sus ventajas</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[74]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pyspark.sql.types</span> <span class="kn">import</span> <span class="n">StructType</span><span class="p">,</span> <span class="n">StructField</span><span class="p">,</span> <span class="n">StringType</span>
+
+<span class="n">schema</span> <span class="o">=</span> <span class="n">StructType</span><span class="p">([</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;tipo&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;ventaja_1&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;ventaja_2&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;ventaja_3&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;ventaja_4&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;ventaja_5&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;desventaja_1&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;desventaja_2&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;desventaja_3&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;desventaja_4&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;desventaja_5&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+    <span class="n">StructField</span><span class="p">(</span><span class="s2">&quot;sin_efecto&quot;</span><span class="p">,</span> <span class="n">StringType</span><span class="p">(),</span> <span class="kc">True</span><span class="p">),</span>
+<span class="p">])</span>
+
+<span class="c1"># Leer el archivo Excel con pandas</span>
+<span class="n">df_pandas</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s2">&quot;Data/ventajas.xlsx&quot;</span><span class="p">)</span>
+
+<span class="c1"># Convertir el DataFrame de pandas a DataFrame de PySpark</span>
+<span class="n">df_spark</span> <span class="o">=</span> <span class="n">spark</span><span class="o">.</span><span class="n">createDataFrame</span><span class="p">(</span><span class="n">df_pandas</span><span class="p">,</span> <span class="n">schema</span><span class="o">=</span><span class="n">schema</span><span class="p">)</span>
+
+<span class="c1"># Realizar el Join</span>
+
+<span class="n">full_data</span> <span class="o">=</span> <span class="n">all_pkmn</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">df_spark</span><span class="p">,</span> <span class="n">all_pkmn</span><span class="p">[</span><span class="s2">&quot;type_1&quot;</span><span class="p">]</span> <span class="o">==</span> <span class="n">df_spark</span><span class="p">[</span><span class="s2">&quot;tipo&quot;</span><span class="p">])</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%239">Punto #9<a class="anchor-link" href="#Punto-%239">&#182;</a></h2><p>Del resultado final, devuelve toda la información del pokemon, pero solo la información de las primeras 2 ventajas, las primeras 2 desventajas y el campo “sin_efecto”</p>
+<blockquote><p><strong>Por efectos practicos se mostrara una version resumida de la informacion del pokemon para que se pueda apreciar correctamente</strong></p>
+</blockquote>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">resultado</span> <span class="o">=</span> <span class="n">full_data</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span><span class="s2">&quot;type_1&quot;</span><span class="p">,</span> <span class="s2">&quot;type_2&quot;</span><span class="p">,</span> <span class="s2">&quot;hp&quot;</span><span class="p">,</span><span class="s2">&quot;attack&quot;</span><span class="p">,</span><span class="s2">&quot;defense&quot;</span><span class="p">,</span><span class="s2">&quot;sp_atk&quot;</span><span class="p">,</span><span class="s2">&quot;sp_def&quot;</span><span class="p">,</span><span class="s2">&quot;speed&quot;</span><span class="p">,</span><span class="s2">&quot;legendary&quot;</span><span class="p">,</span> <span class="s2">&quot;ventaja_1&quot;</span><span class="p">,</span> <span class="s2">&quot;ventaja_2&quot;</span><span class="p">,</span> <span class="s2">&quot;desventaja_1&quot;</span><span class="p">,</span> <span class="s2">&quot;desventaja_2&quot;</span><span class="p">,</span> <span class="s2">&quot;sin_efecto&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span>
+
+
+<span class="n">full_data</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="s2">&quot;id&quot;</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">,</span><span class="s2">&quot;type_1&quot;</span> <span class="p">,</span> <span class="s2">&quot;ventaja_1&quot;</span><span class="p">,</span> <span class="s2">&quot;ventaja_2&quot;</span><span class="p">,</span> <span class="s2">&quot;desventaja_1&quot;</span><span class="p">,</span> <span class="s2">&quot;desventaja_2&quot;</span><span class="p">,</span> <span class="s2">&quot;sin_efecto&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">orderBy</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">show</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>+---+--------------------+-------+---------+---------+------------+------------+----------+
+| id|                name| type_1|ventaja_1|ventaja_2|desventaja_1|desventaja_2|sin_efecto|
++---+--------------------+-------+---------+---------+------------+------------+----------+
+| 63|                Abra|Psychic| Luchador|   Veneno|    Psíquico|       Acero| Siniestro|
+|617|            Accelgor|    Bug|   Planta| Psíquico|       Fuego|       Lucha|   Ninguno|
+|681|AegislashBlade Forme|  Steel|    Hielo|     Roca|       Fuego|        Agua|   Ninguno|
+|681|AegislashShield F...|  Steel|    Hielo|     Roca|       Fuego|        Agua|   Ninguno|
+|142|          Aerodactyl|   Rock|    Fuego|    Hielo|       Lucha|      Tierra|   Ninguno|
+|142|AerodactylMega Ae...|   Rock|    Fuego|    Hielo|       Lucha|      Tierra|   Ninguno|
+|306|              Aggron|  Steel|    Hielo|     Roca|       Fuego|        Agua|   Ninguno|
+|306|   AggronMega Aggron|  Steel|    Hielo|     Roca|       Fuego|        Agua|   Ninguno|
+|190|               Aipom| Normal|  Ninguna|  Ninguna|        Roca|       Acero|  Fantasma|
+| 65|            Alakazam|Psychic| Luchador|   Veneno|    Psíquico|       Acero| Siniestro|
++---+--------------------+-------+---------+---------+------------+------------+----------+
+only showing top 10 rows
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Punto-%2310">Punto #10<a class="anchor-link" href="#Punto-%2310">&#182;</a></h2><p>Escribe el resultado en un archivo parquet pkmn_result__info.parquet</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Guardar como CSV</span>
+<span class="n">resultado</span><span class="o">.</span><span class="n">write</span><span class="o">.</span><span class="n">csv</span><span class="p">(</span><span class="s2">&quot;pkmn_result__info.csv&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;overwrite&quot;</span><span class="p">)</span>
+
+<span class="c1"># Guardar como parquet</span>
+<span class="n">resultado</span><span class="o">.</span><span class="n">write</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s2">&quot;parquet&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;pkmn_result__info.parquet&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
